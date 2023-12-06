@@ -14,6 +14,14 @@ public class appleFlash : MonoBehaviour
     [SerializeField] private GameObject apple3;
     [SerializeField] private GameObject apple4;
 
+    [SerializeField] private GameObject apple5;
+    [SerializeField] private GameObject apple6;
+    [SerializeField] private GameObject apple7;
+    [SerializeField] private GameObject apple8;
+    [SerializeField] private GameObject apple9;
+    [SerializeField] private GameObject apple10;
+    [SerializeField] private GameObject apple11;
+
     private List<GameObject> flashingApples;
 
     public void Start()
@@ -24,7 +32,7 @@ public class appleFlash : MonoBehaviour
 
     private void CreateList()
     {
-        flashingApples = new List<GameObject>() { apple1, apple2, apple3, apple4 };
+        flashingApples = new List<GameObject>() { apple1, apple2, apple3, apple4,apple5,apple6,apple7,apple8,apple9,apple10,apple11};
     }
     private IEnumerator Flashing()
     {
