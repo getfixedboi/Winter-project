@@ -49,6 +49,7 @@ public class levelGoalManagerScript : MonoBehaviour
         nextLevelScript l4 = ScriptableObject.CreateInstance<nextLevelScript>();
         nextLevelScript l5 = ScriptableObject.CreateInstance<nextLevelScript>();
         nextLevelScript l6 = ScriptableObject.CreateInstance<nextLevelScript>();
+        nextLevelScript l7 = ScriptableObject.CreateInstance<nextLevelScript>();
 
         l1.SetFields(1,6);
         l2.SetFields(2,5);
@@ -56,8 +57,9 @@ public class levelGoalManagerScript : MonoBehaviour
         l4.SetFields(4,4);
         l5.SetFields(5,7);
         l6.SetFields(6,1);
+        l7.SetFields(7,11);
 
-        list4goals = new List<nextLevelScript>{l1,l2,l3,l4,l5,l6};
+        list4goals = new List<nextLevelScript>{l1,l2,l3,l4,l5,l6,l7};
     }
     private void levelProgressSaver(nextLevelScript currLevel)
     {
